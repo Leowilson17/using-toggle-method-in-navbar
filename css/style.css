@@ -1,0 +1,51 @@
+.main{
+    width: 600px;
+    margin-left: 25%;
+    height: auto;
+    background-color: rgb(122, 163, 163);
+    transform: translateY(100px);
+}
+.flex{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    /* width: auto; */
+}
+p{
+color: black;
+text-transform: capitalize;
+/* text-shadow: 1px 3px rgb(139, 136, 136); */
+font-size: 25px;
+font-weight: bold;
+}
+p > span{
+    color: aqua;
+    font-size: 25px;
+}
+.line-1,.line-2,.line-3{
+    background-color: skyblue;
+    font-size: 20px;
+    width: 20px;
+    margin-top: 5px;
+    /* display: inline-block; */
+    height: 3px;
+}
+.link{
+    margin-top: 20px;
+    padding: 10px;
+    transition: 5s;
+}
+.display{
+    display: none;
+}
+a{
+    display: block;
+    color: white;
+    font-size: 25px;
+    line-height: 50px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+a:hover{
+    color: #3CFF4F;
+}
